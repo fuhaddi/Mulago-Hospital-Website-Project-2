@@ -63,6 +63,11 @@ p { margin-bottom: 1rem; color: var(--text); }
   letter-spacing: 0.02em;
 }
 
+.top-bar[data-lucide] {
+  width: 14px;
+  height: 14px;
+}
+
 .top-bar .container {
   display: flex;
   justify-content: space-between;
@@ -352,6 +357,18 @@ section { padding: 72px 0; }
   transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
   position: relative;
   overflow: hidden;
+}
+
+.card[data-lucide] {
+  width: 20px;
+  height: 20px;
+}
+
+.card i{
+  width: 32px;
+  height: 32px;
+  color: #2563eb;
+  stroke-width: 2;
 }
 
 .card::before {
@@ -718,6 +735,11 @@ footer {
   background: var(--navy);
   color: rgba(255,255,255,0.75);
   padding: 60px 0 0;
+}
+
+.footer[data-lucide] {
+  width: 18px;
+  height: 18px;
 }
 
 .footer-grid {
