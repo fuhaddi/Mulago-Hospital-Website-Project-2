@@ -12,8 +12,8 @@
   <!-- top bar -->
   <div class="top-bar">
     <div class="container">
-      <span>&#128205; Mulago Hill, Kampala, Uganda</span>
-      <span>&#9990; Emergency: +256 414 554 001 &nbsp;|&nbsp; &#9993; info@mulago.go.ug</span>
+      <span><i data-lucide="map-pin"></i> Mulago Hill, Kampala, Uganda</span>
+      <span><i data-lucide="phone"></i> Emergency: +256 414 554 001 &nbsp;|&nbsp; <i data-lucide="mail"></i> info@mulago.go.ug</span>
     </div>
   </div>
 
@@ -66,7 +66,7 @@
     <div style="background:#c0392b; padding:14px 0; text-align:center;">
       <div class="container">
         <p style="color:#fff; margin:0; font-weight:600; font-size:0.95rem;">
-          &#128680; For medical emergencies, do not use this form. Call us immediately:
+          <i data-lucide="alert-triangle"></i> For medical emergencies, do not use this form. Call us immediately:
           <a href="tel:+256414554001" style="color:#fff; text-decoration:underline; margin-left:6px;">
             +256 414 554 001
           </a>
@@ -91,7 +91,7 @@
 
             <!-- phone numbers -->
             <div class="contact-info-item">
-              <div class="contact-icon">&#128222;</div>
+              <div class="contact-icon"><i data-lucide="phone"></i></div>
               <div>
                 <h4>Phone Numbers</h4>
                 <p>Main Line: +256 414 554 001<br/>
@@ -102,7 +102,7 @@
 
             <!-- email -->
             <div class="contact-info-item">
-              <div class="contact-icon">&#9993;</div>
+              <div class="contact-icon"><i data-lucide="mail"></i></div>
               <div>
                 <h4>Email Addresses</h4>
                 <p>General Enquiries: info@mulago.go.ug<br/>
@@ -113,7 +113,7 @@
 
             <!-- physical address -->
             <div class="contact-info-item">
-              <div class="contact-icon">&#128205;</div>
+              <div class="contact-icon"><i data-lucide="map-pin"></i></div>
               <div>
                 <h4>Physical Address</h4>
                 <p>Mulago Hill Road, Mulago Hill<br/>
@@ -124,7 +124,7 @@
 
             <!-- opening hours -->
             <div class="contact-info-item">
-              <div class="contact-icon">&#128336;</div>
+              <div class="contact-icon"><i data-lucide="clock"></i></div>
               <div>
                 <h4>Office Hours</h4>
                 <p>Monday to Friday: 8:00 AM to 5:00 PM<br/>
@@ -135,7 +135,7 @@
 
             <!-- social media or online -->
             <div class="contact-info-item">
-              <div class="contact-icon">&#127760;</div>
+              <div class="contact-icon"><i data-lucide="globe"></i></div>
               <div>
                 <h4>Online</h4>
                 <p>Website: www.mulago.go.ug<br/>
@@ -257,7 +257,7 @@
         <div class="cards-grid" style="margin-top:40px; grid-template-columns:repeat(auto-fit,minmax(220px,1fr));">
 
           <div class="card">
-            <div class="card-icon">&#128664;</div>
+            <div class="card-icon"><i data-lucide="map-pin"></i></div>
             <h3>By Private Car</h3>
             <p>
               From Kampala city centre, take Bombo Road north. Turn right onto Mulago Hill Road
@@ -266,7 +266,7 @@
           </div>
 
           <div class="card">
-            <div class="card-icon">&#128652;</div>
+            <div class="card-icon"><i data-lucide="car"></i></div>
             <h3>By Taxi / Matatu</h3>
             <p>
               Board any taxi from Kampala Old Taxi Park heading to Mulago. Ask the conductor to
@@ -275,7 +275,7 @@
           </div>
 
           <div class="card">
-            <div class="card-icon">&#128690;</div>
+            <div class="card-icon"><i data-lucide="bicycle"></i></div>
             <h3>By Boda-Boda</h3>
             <p>
               Boda-bodas (motorcycle taxis) are available throughout Kampala. Simply ask to be taken
@@ -284,7 +284,7 @@
           </div>
 
           <div class="card">
-            <div class="card-icon">&#128680;</div>
+            <div class="card-icon"><i data-lucide="ambulance"></i></div>
             <h3>Ambulance Transfer</h3>
             <p>
               For patients being transferred from other health facilities by ambulance, the main
@@ -328,10 +328,8 @@
             </ul>
           </div>
 
-          <p style="font-size:0.85rem; color:#5a6a7e; text-align:center; margin-top:16px;">
-            Note: The above numbers are sample/placeholder numbers for demonstration. Please verify
-            current numbers from the official Ministry of Health website at www.health.go.ug.
-          </p>
+          <!-- <p style="font-size:0.85rem; color:#5a6a7e; text-align:center; margin-top:16px;">
+          </p> -->
         </div>
 
       </div>
@@ -379,10 +377,10 @@
         <div class="footer-col">
           <h4>Contact Info</h4>
           <ul class="footer-contact">
-            <li>&#128205; Mulago Hill, P.O. Box 7051, Kampala, Uganda</li>
-            <li>&#9990; +256 414 554 001</li>
-            <li>&#9990; +256 414 530 904</li>
-            <li>&#9993; info@mulago.go.ug</li>
+            <li><i data-lucide="map-pin"></i> Mulago Hill, P.O. Box 7051, Kampala, Uganda</li>
+            <li><i data-lucide="phone"></i> +256 414 554 001</li>
+            <li><i data-lucide="phone"></i> +256 414 530 904</li>
+            <li><i data-lucide="mail"></i> info@mulago.go.ug</li>
           </ul>
         </div>
       </div>
@@ -395,6 +393,10 @@
     </div>
   </footer>
   <script src="main.js"></script>
+   <script src="https://unpkg.com/lucide@latest"></script>
+  <script>
+    lucide.createIcons();
+  </script>
 
 </body>
 </html>
